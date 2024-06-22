@@ -77,5 +77,25 @@ ul {
   list-style: none;
 }
 
+#character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
 
-
+#character-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#character-list li span {
+  font-weight: bold;
+}
+.text {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  margin: 10px;
+}
